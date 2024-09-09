@@ -1,0 +1,20 @@
+# Header
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**action** | Option<**String**> | Accepts a string value. | 
+**cache_condition** | Option<**String**> | Name of the cache condition controlling when this configuration applies. | 
+**dst** | Option<**String**> | Header to set. | 
+**name** | Option<**String**> | A handle to refer to this Header object. | 
+**regex** | Option<**String**> | Regular expression to use. Only applies to `regex` and `regex_repeat` actions. | 
+**request_condition** | Option<**String**> | Condition which, if met, will select this configuration during a request. Optional. | 
+**response_condition** | Option<**String**> | Optional name of a response condition to apply. | 
+**src** | Option<**String**> | Variable to be used as a source for the header content. Does not apply to `delete` action. | 
+**substitution** | Option<**String**> | Value to substitute in place of regular expression. Only applies to `regex` and `regex_repeat` actions. | 
+**_type** | Option<**String**> | Accepts a string value. | 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
